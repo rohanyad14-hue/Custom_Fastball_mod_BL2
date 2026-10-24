@@ -1,0 +1,15 @@
+- ==============================================================================
+- RUIFI CHAOS FASTBALL SUITE - SPAWN DEFINITION
+- Spawns Ruifi grenades near Sanctuary Fast Travel for immediate testing
+- ==============================================================================
+
+/Sanctuary_P
+#InventoryBalanceDefinition
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette (X=2300, Y=-2200, Z=-100) (Pitch=0, Yaw=0, Roll=0) (0, 0)
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Wildcard (X=2350, Y=-2200, Z=-100) (Pitch=0, Yaw=0, Roll=0) (0, 0)
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Cataclysm (X=2400, Y=-2200, Z=-100) (Pitch=0, Yaw=0, Roll=0) (0, 0)
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_RussianPitch (X=2450, Y=-2200, Z=-100) (Pitch=0, Yaw=0, Roll=0) (0, 0)
+
+/None
+#InventoryBalanceDefinition
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette (X=0, Y=0, Z=50) (Pitch=0, Yaw=0, Roll=0) (0, 0)

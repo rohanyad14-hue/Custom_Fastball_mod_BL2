@@ -1,0 +1,27 @@
+- ==============================================================================
+- RUIFI CHAOS FASTBALL SUITE - CONSTRUCTOR CLONING DEFINITION
+- Manufacturer: Ruifi
+- Template: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball
+- ==============================================================================
+
+#ManufacturerDefinition
+GD_Manufacturers.Manufacturers.Tediore Ruifi
+
+#InventoryBalanceDefinition
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball GrenadeMod_Ruifi_Roulette
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball GrenadeMod_Ruifi_Wildcard
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball GrenadeMod_Ruifi_Cataclysm
+GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball GrenadeMod_Ruifi_RussianPitch
+
+#ItemNamePartDefinition
+GD_GrenadeMods.Title.Title_Fastball Title_Ruifi_Roulette
+GD_GrenadeMods.Title.Title_Fastball Title_Ruifi_Wildcard
+GD_GrenadeMods.Title.Title_Fastball Title_Ruifi_Cataclysm
+GD_GrenadeMods.Title.Title_Fastball Title_Ruifi_RussianPitch
+
+#GrenadeModPartDefinition
+GD_GrenadeMods.Delivery.Delivery_Fastball Delivery_Ruifi_Fastball
+GD_GrenadeMods.Payload.Payload_Standard Payload_Ruifi_Chaos
+GD_GrenadeMods.Payload.Payload_Mirv Payload_Ruifi_Cataclysm
+GD_GrenadeMods.DamageRadius.DamageRadius_ExtraLarge DamageRadius_Ruifi_Mega
+GD_GrenadeMods.Material.Material_Tedior_5_Legendary Material_Ruifi_Legendary

@@ -1,0 +1,81 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="BL2" offline="false"/>
+		<profiles>
+			<profile name="default" current="true"/>
+		</profiles>
+	</head>
+	<body>
+		<category name="Ruifi Chaos Fastballs">
+			<category name="Manufacturer">
+				<code profiles="default">set GD_Manufacturers.Manufacturers.Ruifi ManufacturerName Ruifi</code>
+			</category>
+			<category name="Titles and Red Text">
+				<category name="Roulette">
+					<code profiles="default">set GD_GrenadeMods.Title.Title_Ruifi_Roulette PartName Roulette</code>
+					<code profiles="default">set GD_GrenadeMods.Title.Title_Ruifi_Roulette:AttributePresentationDefinition_1000 NoConstraintText Russian roulette, but the whole cylinder is loaded.</code>
+				</category>
+				<category name="Wildcard">
+					<code profiles="default">set GD_GrenadeMods.Title.Title_Ruifi_Wildcard PartName Wildcard</code>
+					<code profiles="default">set GD_GrenadeMods.Title.Title_Ruifi_Wildcard:AttributePresentationDefinition_1000 NoConstraintText Pick a card... any card. They're all Jokers.</code>
+				</category>
+				<category name="Cataclysm">
+					<code profiles="default">set GD_GrenadeMods.Title.Title_Ruifi_Cataclysm PartName Cataclysm</code>
+					<code profiles="default">set GD_GrenadeMods.Title.Title_Ruifi_Cataclysm:AttributePresentationDefinition_1000 NoConstraintText Clear the room. Then clear the next room.</code>
+				</category>
+				<category name="Russian Pitch">
+					<code profiles="default">set GD_GrenadeMods.Title.Title_Ruifi_RussianPitch PartName Russian Pitch</code>
+					<code profiles="default">set GD_GrenadeMods.Title.Title_Ruifi_RussianPitch:AttributePresentationDefinition_1000 NoConstraintText 50% chance of dud, 50% chance of supernova.</code>
+				</category>
+			</category>
+			<category name="Grenade Balance Definitions">
+				<category name="Roulette">
+					<code profiles="default">set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette ManufacturerDefinition ManufacturerDefinition'GD_Manufacturers.Manufacturers.Ruifi'</code>
+					<code profiles="default">set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette bUsesPlayerLevelRequirement False</code>
+				</category>
+				<category name="Wildcard">
+					<code profiles="default">set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Wildcard ManufacturerDefinition ManufacturerDefinition'GD_Manufacturers.Manufacturers.Ruifi'</code>
+					<code profiles="default">set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Wildcard bUsesPlayerLevelRequirement False</code>
+				</category>
+				<category name="Cataclysm">
+					<code profiles="default">set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Cataclysm ManufacturerDefinition ManufacturerDefinition'GD_Manufacturers.Manufacturers.Ruifi'</code>
+					<code profiles="default">set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Cataclysm bUsesPlayerLevelRequirement False</code>
+				</category>
+				<category name="Russian Pitch">
+					<code profiles="default">set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_RussianPitch ManufacturerDefinition ManufacturerDefinition'GD_Manufacturers.Manufacturers.Ruifi'</code>
+					<code profiles="default">set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_RussianPitch bUsesPlayerLevelRequirement False</code>
+				</category>
+			</category>
+			<category name="Parts and Chaos Behavior">
+				<category name="Delivery Ruifi Fastball">
+					<code profiles="default">set GD_GrenadeMods.Delivery.Delivery_Ruifi_Fastball ExternalAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.InstigatedGrenadeRadiusModifier',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=4.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.InstigatedGrenadeDamageModifier',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=2.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.StatusEffects.StatusEffectChanceModifier',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))</code>
+				</category>
+				<category name="Mega Radius">
+					<code profiles="default">set GD_GrenadeMods.DamageRadius.DamageRadius_Ruifi_Mega ExternalAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.InstigatedGrenadeRadiusModifier',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=6.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))</code>
+				</category>
+			</category>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set GD_Manufacturers.Manufacturers.Ruifi ManufacturerName Ruifi
+set GD_GrenadeMods.Title.Title_Ruifi_Roulette PartName Roulette
+set GD_GrenadeMods.Title.Title_Ruifi_Roulette:AttributePresentationDefinition_1000 NoConstraintText Russian roulette, but the whole cylinder is loaded.
+set GD_GrenadeMods.Title.Title_Ruifi_Wildcard PartName Wildcard
+set GD_GrenadeMods.Title.Title_Ruifi_Wildcard:AttributePresentationDefinition_1000 NoConstraintText Pick a card... any card. They're all Jokers.
+set GD_GrenadeMods.Title.Title_Ruifi_Cataclysm PartName Cataclysm
+set GD_GrenadeMods.Title.Title_Ruifi_Cataclysm:AttributePresentationDefinition_1000 NoConstraintText Clear the room. Then clear the next room.
+set GD_GrenadeMods.Title.Title_Ruifi_RussianPitch PartName Russian Pitch
+set GD_GrenadeMods.Title.Title_Ruifi_RussianPitch:AttributePresentationDefinition_1000 NoConstraintText 50% chance of dud, 50% chance of supernova.
+set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette ManufacturerDefinition ManufacturerDefinition'GD_Manufacturers.Manufacturers.Ruifi'
+set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette bUsesPlayerLevelRequirement False
+set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Wildcard ManufacturerDefinition ManufacturerDefinition'GD_Manufacturers.Manufacturers.Ruifi'
+set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Wildcard bUsesPlayerLevelRequirement False
+set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Cataclysm ManufacturerDefinition ManufacturerDefinition'GD_Manufacturers.Manufacturers.Ruifi'
+set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Cataclysm bUsesPlayerLevelRequirement False
+set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_RussianPitch ManufacturerDefinition ManufacturerDefinition'GD_Manufacturers.Manufacturers.Ruifi'
+set GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_RussianPitch bUsesPlayerLevelRequirement False
+set GD_GrenadeMods.Delivery.Delivery_Ruifi_Fastball ExternalAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.InstigatedGrenadeRadiusModifier',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=4.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.InstigatedGrenadeDamageModifier',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=2.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.StatusEffects.StatusEffectChanceModifier',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
+set GD_GrenadeMods.DamageRadius.DamageRadius_Ruifi_Mega ExternalAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.DamageSourceModifiers.InstigatedGrenadeRadiusModifier',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=6.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))

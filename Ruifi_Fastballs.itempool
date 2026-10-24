@@ -1,0 +1,105 @@
+- ==============================================================================
+- RUIFI CHAOS FASTBALL SUITE - ITEM POOL INJECTION
+- ==============================================================================
+
+- Injects into Boll (Three Horns Divide - Original Fastball Boss)
+/None
+#GD_Itempools.Runnables.Pool_Boll
+ItemPoolDefinition None
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Wildcard
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Cataclysm
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_RussianPitch
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+++
+
+- Injects into Knuckledragger early chest for immediate testing in Southern Shelf
+/None
+#GD_Itempools.EarlyGame.Pool_Knuckledragger_Chest_Shotgun
+ItemPoolDefinition None
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette
+BaseValueConstant 0.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_1_Common'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Wildcard
+BaseValueConstant 0.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_1_Common'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Cataclysm
+BaseValueConstant 0.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_1_Common'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_RussianPitch
+BaseValueConstant 0.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_1_Common'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+++
+
+- Injects into Bad Maw runnable pool
+/None
+#GD_Itempools.Runnables.Pool_BadMaw
+ItemPoolDefinition None
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+++
+
+- Injects into Legendary Grenade Mod world drop pool
+/None
+#GD_Itempools.GrenadeModPools.Pool_GrenadeMods_06_Legendary
+ItemPoolDefinition None
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Wildcard
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Cataclysm
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_RussianPitch
+BaseValueConstant 1.000000
+BaseValueAttribute None
+InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_5_Legendary'
+BaseValueScaleConstant 1.000000
+bDropOnDeath True
+++
