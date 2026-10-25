@@ -1,17 +1,17 @@
 - ==============================================================================
 - RUIFI CHAOS FASTBALL SUITE - CONSTRUCTOR CLONING DEFINITION
 - Manufacturer: Ruifi
-- Template: GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball
+- Template: GD_GrenadeMods.A_Item_Legendary.GM_Fastball
 - ==============================================================================
 
 #ManufacturerDefinition
 GD_Manufacturers.Manufacturers.Tediore Ruifi
 
 #InventoryBalanceDefinition
-GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball GrenadeMod_Ruifi_Roulette
-GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball GrenadeMod_Ruifi_Wildcard
-GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball GrenadeMod_Ruifi_Cataclysm
-GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Fastball GrenadeMod_Ruifi_RussianPitch
+GD_GrenadeMods.A_Item_Legendary.GM_Fastball GrenadeMod_Ruifi_Roulette
+GD_GrenadeMods.A_Item_Legendary.GM_Fastball GrenadeMod_Ruifi_Wildcard
+GD_GrenadeMods.A_Item_Legendary.GM_Fastball GrenadeMod_Ruifi_Cataclysm
+GD_GrenadeMods.A_Item_Legendary.GM_Fastball GrenadeMod_Ruifi_RussianPitch
 
 #ItemNamePartDefinition
 GD_GrenadeMods.Title.Title_Fastball Title_Ruifi_Roulette

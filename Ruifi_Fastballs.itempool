@@ -37,7 +37,7 @@ bDropOnDeath True
 #GD_Itempools.EarlyGame.Pool_Knuckledragger_Chest_Shotgun
 ItemPoolDefinition None
 InvBalanceDefinition GD_GrenadeMods.A_Item_Legendary.GrenadeMod_Ruifi_Roulette
-BaseValueConstant 0.000000
+BaseValueConstant 1.000000
 BaseValueAttribute None
 InitializationDefinition AttributeInitializationDefinition'GD_Balance.Weighting.Weight_1_Common'
 BaseValueScaleConstant 1.000000
